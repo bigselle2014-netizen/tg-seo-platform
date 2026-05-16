@@ -40,11 +40,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       entries.push({
         url: `${SITE_URL}/blog/${p.slug}`,
         lastModified: new Date(p.updatedAt),
-        changeFrequency: "monthly",
+        changeFrequency: "monthly" as const,
         priority: 0.8,
       });
     }
-  } catch {}
+  } catch {
+    // DB not available at build time — sitemap will be populated at runtime
+  }
 
   try {
     const channelsRes = await fetch(`${API_BASE}/api/channels`);
