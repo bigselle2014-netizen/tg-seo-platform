@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@telegram-apps/telegram-ui": "^2.1.13",
+    "@tma.js/init-data-node": "^2.0.7",
+    "@tma.js/sdk-react": "^3.0.19",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/react-window": "^1.8.8",
+    "better-auth": "^1",
+    "better-auth-telegram": "^1.5.0",
+    "drizzle-orm": "^0.45",
+    "grammy": "^1.42.0",
+    "isomorphic-dompurify": "^3.11.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.14.0",
+    "next": "16.2.1",
+    "pg": "^8",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-window": "^1.8.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pg": "^8",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

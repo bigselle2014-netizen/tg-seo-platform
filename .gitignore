@@ -1,0 +1,16 @@
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+*.pyc
+__pycache__/
+.env
+.env.*
+*.env
+!.env.example
+*.log
+google-indexing-key.json
+.DS_Store
+postgres_data/
+.venv/
+venv/
