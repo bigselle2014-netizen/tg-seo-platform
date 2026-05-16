@@ -347,6 +347,9 @@ export default function HomePage() {
             <span style={{fontSize: 15, fontWeight: 700, color: "#0f172a", letterSpacing: "-0.3px"}}>Post SEO</span>
           </Link>
           <div style={{display: "flex", alignItems: "center", gap: 12}}>
+            <Link href="/blog" style={{fontSize: 13, color: "#64748b", textDecoration: "none", padding: "6px 12px"}}>
+              Блог
+            </Link>
             <Link href="/auth/sign-in" style={{fontSize: 13, color: "#64748b", textDecoration: "none", padding: "6px 12px"}}>
               Войти
             </Link>
